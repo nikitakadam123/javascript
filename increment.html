@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<body>
+    <button onclick="increment()">+</button>
+    <p id="value">0</p>
+    <button onclick="decrement()">-</button>
+
+    <script>
+        function increment(){
+            var i=document.getElementById("value").innerHTML;
+            i++;
+            document.getElementById("value").innerHTML=i;
+        }
+        function decrement()
+
+        {
+            var i=document.getElementById("value").innerHTML;
+            document.getElementById("value").innerHTML=--i;
+        }
+       
+       </script>
+
+    </body>
+</html>
